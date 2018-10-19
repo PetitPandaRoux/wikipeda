@@ -1,6 +1,6 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Gatsby Default Starter',
+  module.exports = {
+    pathPrefix: `/wikipeda`,
   },
   plugins: [
   ],
