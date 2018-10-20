@@ -1,6 +1,5 @@
 # WIKIPEDA
 
-A simple static website about sharing padagogical tool
+A simple static website about sharing padagogical tool using gatsby.
 
-The site use gatsby-starter-hello-world as the starting point
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+The site use gatsby-starter-hello-world as the starting point.
