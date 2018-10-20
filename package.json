@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "rm -rf public/* && gatsby build",
     "serve": "gatsby serve",
-    "deploy":"rm -rf docs && cp -r public/ docs/"
+    "deploy":"gatsby build && rm -rf docs && cp -r public/ docs/"
   },
   "dependencies": {
     "gatsby": "^2.0.0",
