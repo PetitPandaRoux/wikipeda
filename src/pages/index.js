@@ -9,7 +9,8 @@ export default () => (
     <Link to = "/contact/">Contact</Link>
     <br/>
     <Link to = "/blog/">Blog</Link>
-    <h4>Enfin ça marche!</h4>
+    <br/>
+    <p>Un site de collaboration sur les déroulés pédagogiques!</p>
     <img src="https://source.unsplash.com/random/400x200" alt="" />
   </div>
 )

@@ -6,9 +6,9 @@
   "author": "Sakada Ly",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "rm -rf public/* && gatsby build",
+    "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && rm -rf docs && cp -r public/ docs/"
+    "deploy": "rm -rf public/* && gatsby build && rm -rf docs && cp -r public/ docs/"
   },
   "dependencies": {
     "gatsby": "^2.0.0",
